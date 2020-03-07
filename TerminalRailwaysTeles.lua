@@ -1,3 +1,7 @@
+-- Made by TrashScripterF, GUI Lib by Wally
+
+
+
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/7Z6TzFnv", true))()
 local teles = library:CreateWindow({
   text = "Teleports"
@@ -20,3 +24,10 @@ dropdown = teles:AddDropdown(stations, function(a)
 		end
 	end
 end)
+
+local mes = Instance.new("Message", workspace)
+mes.Text = "TELEPORTS LOADED, For more scripts check your console (F9) for the discord"
+wait(2)
+mes:Destroy()
+
+print("https://discord.gg/czXkbCS")
