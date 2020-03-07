@@ -31,3 +31,5 @@ game.StarterGui:SetCore("SendNotification", {
 	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
 	Duration = 5,
 })
+
+print("https://discord.gg/czXkbCS")
