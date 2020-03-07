@@ -25,9 +25,9 @@ dropdown = teles:AddDropdown(stations, function(a)
 	end
 end)
 
-local mes = Instance.new("Message", workspace)
-mes.Text = "TELEPORTS LOADED, For more scripts check your console (F9) for the discord"
-wait(2)
-mes:Destroy()
 
-print("https://discord.gg/czXkbCS")
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Teleports Loaded!",
+	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
+	Duration = 5,
+})
