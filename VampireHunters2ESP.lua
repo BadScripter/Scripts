@@ -1,7 +1,7 @@
 -- Made by TrashScripterF
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Teleports Loaded!",
+	Title = "ESP Loaded!",
 	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
 	Duration = 5,
 })
