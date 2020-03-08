@@ -41,7 +41,7 @@ game:GetService("UserInputService").InputEnded:Connect(function(i,g)
 	if i.KeyCode == Enum.KeyCode[_G.Toggle:upper()] then
 		on = not on
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Autofarm is now set to "..on.."!",
+			Title = "Autofarm is now set to "..tostring(on).."!",
 			Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
 			Duration = 1.5,
 		})
