@@ -4,7 +4,7 @@ local init = false
 
 game:GetService("UserInputService").InputEnded:Connect(function(i,g)
   if g then return end
-  if i.KeyCode == Enum.KeyCode[_G.Toggle:upper()] then
+  if i.KeyCode == Enum.KeyCode[_G.Toggleupper()] then
     on = not on
     game.StarterGui:SetCore("SendNotification", {
       Title = "Hitbox Expander is now set to "..on.."!",
