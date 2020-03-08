@@ -38,7 +38,7 @@ end
 
 game:GetService("UserInputService").InputEnded:Connect(function(i,g)
 	if g then return end
-	if i.KeyCode == _G.Toggle then
+	if i.KeyCode == Enum.KeyCode[_G.Toggle:upper()] then
 		on = not on
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Autofarm is now on!",
