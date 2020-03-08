@@ -11,6 +11,7 @@ local Mouse = Player:GetMouse()
 
 local Zombies = workspace.Zombies
 local deb = false
+local mousemoverel = mousemoverel or MoveMouse
 
 function zombie()
     local nearestZombie = nil
