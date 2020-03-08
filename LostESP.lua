@@ -9,7 +9,7 @@ game.StarterGui:SetCore("SendNotification", {
 while wait() do
   for i, v in pairs(workspace.ScavZones:GetDescendants()) do
     if v:FindFirstChild("Head") then
-      if not v.Head:FindFirstChild("BillboardGui")
+      if not v.Head:FindFirstChild("BillboardGui") then
         local bill = Instance.new("BillboardGui", v.Head)
         bill.AlwaysOnTop = true
         bill.LightInfluence = 1
