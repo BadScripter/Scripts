@@ -29,9 +29,8 @@ end
 
 function aim()
 	local near = zombie()
-	Character.HumanoidRootPart.CFrame = near.Torso.CFrame - near.Torso.CFrame.lookVector * 3.5
     local look = Camera:WorldToScreenPoint(zombie().Head.Position)
-    local mouseLocation = Camera:WorlSdToScreenPoint(Mouse.Hit.p)
+    local mouseLocation = Camera:WorldToScreenPoint(Mouse.Hit.p)
     mousemoverel(look.X - mouseLocation.X, look.Y - mouseLocation.Y)
 end
 
