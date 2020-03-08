@@ -11,6 +11,7 @@ local Mouse = Player:GetMouse()
 
 local Zombies = workspace.Zombies
 local deb = false
+local on = false
 local mousemoverel = mousemoverel or MoveMouse
 
 function zombie()
@@ -35,9 +36,21 @@ function aim()
     mousemoverel(look.X - mouseLocation.X, look.Y - mouseLocation.Y)
 end
 
+game:GetService("UserInputService").InputEnded:Connect(function(i,g)
+	if g then return end
+	if i.KeyCode == _G.Toggle then
+		on = not on
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Autofarm is now on!",
+			Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
+			Duration = 1.5,
+		})
+	ende
+end)
+
 spawn(function()
     game:GetService("RunService").RenderStepped:connect(function()
-        if zombie() ~= nil then
+        if zombie() ~= nil and on then
             deb = false
             aim()
 		Character:FindFirstChildWhichIsA("Tool"):Activate()
