@@ -45,7 +45,7 @@ game:GetService("UserInputService").InputEnded:Connect(function(i,g)
 			Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
 			Duration = 1.5,
 		})
-	ende
+	end
 end)
 
 spawn(function()
