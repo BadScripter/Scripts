@@ -19,8 +19,8 @@ while wait() do
       for i, v in pairs(workspace:GetDescendants()) do
         if v.Name == "Basketball" and v:FindFirstChild("HitBox") then 
             if not init then init = v.HitBox.Size end
-            v.Size = init * 1.15
-            v.HitBox.Size = init * 1.15
+            v.Size = init * _G.Size
+            v.HitBox.Size = init * _G.Size
         end
       end
    else
