@@ -15,14 +15,16 @@ Auto:AddToggle("Autofarm", function(state)
 		for i, v in pairs(workspace:GetChildren()) do
 			if v:IsA("Model") then 
 				if _G.Mobs[v.Name] ~= nil then 
-					if _G.Mobs[v.Name] and v.Humanoid.Health > 0 then 
-						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Head.CFrame + Vector3.new(0,10,0)
-						local A_1 = game:GetService("Players").LocalPlayer.PlrStats.Stats.Melee
-						local A_2 = v.Head
-						local A_3 = v.Head.Position
-						local Event = game.Players.LocalPlayer.Character.Combat.Damage
-						Event:FireServer(A_1, A_2, A_3)
-					end
+					pcall(function()
+						if _G.Mobs[v.Name] and v.Humanoid.Health > 0 then 
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Head.CFrame + Vector3.new(0,10,0)
+							local A_1 = game:GetService("Players").LocalPlayer.PlrStats.Stats.Melee
+							local A_2 = v.Head
+							local A_3 = v.Head.Position
+							local Event = game.Players.LocalPlayer.Character.Combat.Damage
+							Event:FireServer(A_1, A_2, A_3)
+						end
+					end)
 				end
 			end
 		end
