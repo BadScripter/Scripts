@@ -2,9 +2,12 @@
 
 assert(getrawmetatable, "Your exploit is not supported!")
 local mt = getrawmetatable(game)
-make_writeable(mt)
+local make_writeable = make_writeable or setreadonly
+assert(make_writeable, "Your exploit is not supported!")
+make_writeable(mt,false)
 local old = mt.__namecall
 local getnamecallmethod = getnamecallmethod or get_namecall_method
+assert(getnamecallmethod, "Your exploit is not supported!")
 
 mt.__namecall = newcclosure(function(self,...)
     local a = {...}
