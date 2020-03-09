@@ -60,7 +60,8 @@ m.KeyDown:connect(function(k)
 					TextLabel.TextScaled = true
 				end
 			end
-		elseif _G.options["Traps"] then
+		end
+		if _G.options["Traps"] then
 			for i, v in pairs(workspace:GetChildren()) do 
 				if v.Name:find("Trap") or v.Name:find("Tripwire") then 
 					if v:FindFirstChildWhichIsA("BasePart") then 
@@ -83,7 +84,8 @@ m.KeyDown:connect(function(k)
 					end
 				end
 			end
-		elseif _G.options["Items"] then
+		end
+		if _G.options["Items"] then
 			for i, v in pairs(workspace.Tools:GetChildren()) do 
 				if v:FindFirstChild("Handle") then 
 					local b3 = Instance.new("BillboardGui")
@@ -104,7 +106,8 @@ m.KeyDown:connect(function(k)
 					TextLabel.TextScaled = true
 				end
 			end
-		elseif _G.options["Threats"] then
+		end
+		if _G.options["Threats"] then
 			for i, v in pairs(workspace.Threats:GetDescendants()) do 
 				if v.Name:find("HumanoidRootPart") then 
 					local b4 = Instance.new("BillboardGui")
