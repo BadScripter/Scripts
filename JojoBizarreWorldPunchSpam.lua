@@ -4,7 +4,7 @@ _G.on = false
 local UIS = game:GetService("UserInputService")
 
 UIS.InputEnded:Connect(function(i,g)
-	if g return end
+	if g then return end
 	if i.KeyCode == Enum.KeyCode[_G.Toggle:upper()] then 
 		_G.on = not _G.on
 		while _G.on do 
