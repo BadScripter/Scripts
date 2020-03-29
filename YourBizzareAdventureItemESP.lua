@@ -40,8 +40,6 @@ UIS.InputEnded:Connect(function(i,g)
     end
 end
 
--- Made by TrashScripterF
-
 game.StarterGui:SetCore("SendNotification", {
 	Title = "ESP Loaded!",
 	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
