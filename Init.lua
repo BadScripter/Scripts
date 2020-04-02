@@ -6,7 +6,7 @@ local scripts = {
   ["3221241066"] = "DeadzoneESP.lua",
   ["4477226641"] = "DemonJourneyAutofarm.lua",
   ["566399244"] = "ElementalBattlegroundsInfStam.lua",
-  ["3095204897"] {"IsleESP.lua","IsleHunterHitbox.lua"},
+  ["3095204897"] = {"IsleESP.lua","IsleHunterHitbox.lua"},
   ["745844303"] = "JojoBizarreWorldPunchSpam.lua",
   ["4760622859"] = "KurokoBasukeHitboxExpander.lua",
   ["4694533755"] = "LeeLineageArtifactTP.lua",
@@ -24,14 +24,15 @@ local scripts = {
   ["2622527242"] = "rBreachSCPGUI.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
-  ["R2S"] = "R2S.lua"
-  ["load"] = function(name)
-      if pcall(function() return scripts[name] end) then
-          loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/"..scripts[name],true))()
-      end
-  end
+  ["R2S"] = "R2S.lua",
 }
 
+function load(name)
+    if pcall(function() return scripts[name] end) then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/"..scripts[name],true))()
+    end
+end
+
 if pcall(function() return scripts[tostring(game.PlaceId)] end) and checkGame then
-    scripts.load(tostring(game.PlaceId)
+    load(tostring(game.PlaceId))
 end
