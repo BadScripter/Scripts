@@ -25,6 +25,7 @@ local scripts = {
   ["3759927663"] = "ZombieStrikeGunMods.lua",
   ["2622527242"] = "rBreachSCPGUI.lua",
   ["4340636621"] = "MilitaryMadnessGUI.lua",
+  ["3340155139"] = "MilitaryMadnessGUI.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
