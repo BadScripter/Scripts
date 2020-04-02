@@ -44,4 +44,12 @@ end
 
 if pcall(function() return scripts[tostring(game.PlaceId)] end) and checkGame then
     load(tostring(game.PlaceId))
+else
+    setclipboard(tostring(game.PlaceId))
+    local mes = Instance.new("Message")
+    mes.Parent = workspace
+    mes.Text = "Game is not detected; its ID is copied automatically.  Make a new ticket and please paste the ID that has been copied."
+    setclipboard(tostring(game.PlaceId))
+    wait(10)
+    mes:Destroy()
 end
