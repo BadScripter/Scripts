@@ -13,8 +13,13 @@ hb:AddBox("Size", function(object, focus)
 	if focus then
     	for i, v in pairs(game.Players:GetPlayers()) do 
 			if v.Character and v ~= game.Players.LocalPlayer then 
-				v.Character.HumanoidRootPart.Size = Vector3.new(tonumber(object.Text),tonumber(object.Text),tonumber(object.Text))
-				v.Character.Torso.Size = Vector3.new(tonumber(object.Text),tonumber(object.Text),tonumber(object.Text))
+				if v.Character:FindFirstChild("Torso") then
+					v.Character.HumanoidRootPart.Size = Vector3.new(tonumber(object.Text),tonumber(object.Text),tonumber(object.Text))
+					v.Character.Torso.Size = Vector3.new(tonumber(object.Text),tonumber(object.Text),tonumber(object.Text))
+				else
+					v.Character.HumanoidRootPart.Size = Vector3.new(tonumber(object.Text),tonumber(object.Text),tonumber(object.Text))
+					v.Character.UpperTorso.Size = Vector3.new(tonumber(object.Text),tonumber(object.Text),tonumber(object.Text))
+				end
 			end
 		end
 	end
