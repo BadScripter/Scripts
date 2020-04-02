@@ -1,7 +1,7 @@
 -- Made by TrashScripterF, GUI Lib by Wally
 
 _G.set = false
-local library = loadstring(game:HttpGet("https://pastebin.com/raw/7Z6TzFnv", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/WallyGUILibV1.lua", true))()
 local Auto = library:CreateWindow({
   text = "Blox no Hero 2 Autofarm"
 })
