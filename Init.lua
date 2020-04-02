@@ -42,7 +42,8 @@ function load(name)
     end
 end
 
-if scripts[tostring(game.PlaceId)] ~= nil and checkGame then
+if scripts[tostring(game.PlaceId)] ~= nil then
+    if not checkGame return end
     load(tostring(game.PlaceId))
 else
     setclipboard(tostring(game.PlaceId))
