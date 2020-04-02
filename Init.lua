@@ -42,7 +42,7 @@ function load(name)
     end
 end
 
-if pcall(function() return scripts[tostring(game.PlaceId)] end) and checkGame then
+if scripts[tostring(game.PlaceId)] ~= nil and checkGame then
     load(tostring(game.PlaceId))
 else
     setclipboard(tostring(game.PlaceId))
