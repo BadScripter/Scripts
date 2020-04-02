@@ -1,6 +1,12 @@
 -- Made by TrashScripterF
 
-
+if not _G.Toggle then
+	local mes = Instance.new("Message")
+	mes.Text = "Please set a toggle keybind (_G.Toggle = 'f') and then rerun the script."
+	wait(5)
+	mes:Destroy()
+	return
+end
 local UIS = game:GetService("UserInputService")
 local on = false
 
