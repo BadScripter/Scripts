@@ -43,8 +43,8 @@ function load(name)
     end
 end
 
+if not checkGame then return end
 if scripts[tostring(game.PlaceId)] ~= nil then
-    if not checkGame then return end
     load(tostring(game.PlaceId))
 else
     setclipboard(tostring(game.PlaceId))
