@@ -1,5 +1,13 @@
 -- Made by TrashScripterF
 
+if _G.Loop and not _G.Time then
+	local mes = Instance.new("Message")
+	mes.Text = "Please set a time! (_G.Time = 60) and then rerun the script."
+	wait(5)
+	mes:Destroy()
+	return
+end
+
 game.StarterGui:SetCore("SendNotification", {
 	Title = "TPer Loaded!",
 	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
