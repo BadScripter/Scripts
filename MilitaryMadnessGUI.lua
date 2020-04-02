@@ -33,6 +33,7 @@ Auto:AddToggle("Money + Rank Farm", function(state)
     local upgrader;
     local furnace;
     local dropper;
+    local mult;
     for i, v in pairs(tycoon.ItemHolder:GetChildren()) do
         if v:FindFirstChild("Drop") then
             dropper = v
@@ -40,6 +41,9 @@ Auto:AddToggle("Money + Rank Farm", function(state)
             upgrader = v
         elseif v:FindFirstChild("FurnacePart") then
             furnace = v
+            if v.FurnacePart.MoneyScript:FindFirstChild("Multiplier") then
+                mult = v.FurnacePart.MoneyScript.Multiplier.Value
+            end
         end
     end
     
@@ -55,6 +59,10 @@ Auto:AddToggle("Money + Rank Farm", function(state)
     end
     
     local val = dropper.Drop.Cash.Value + upgrader.Upgrader.Upgrade.Value*300
+    
+    if mult then
+        val = val * mult
+    end
     
     while _G.PP do
         local A_1 = {}
