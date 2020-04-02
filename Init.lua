@@ -29,7 +29,13 @@ local scripts = {
 
 function load(name)
     if pcall(function() return scripts[name] end) then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/"..scripts[name],true))()
+        if type(scripts[name]) == "string" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/"..scripts[name],true))()
+        else
+            for i, v in pairs(scripts[name]) do        
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/"..v,true))()
+            end
+        end
     end
 end
 
