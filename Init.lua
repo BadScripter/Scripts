@@ -28,6 +28,7 @@ local scripts = {
   ["3340155139"] = "MilitaryMadnessGUI.lua",
   ["3144140570"] = "HoopVerseAimbot.lua",
   ["3073974886"] = "HoopVerseAimbot.lua",
+  ["797772998"] = "LundenwicInfMoney.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
