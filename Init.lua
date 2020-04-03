@@ -1,5 +1,3 @@
--- Made by TrashScripterF
-
 local scripts = {
   ["2686500207"] = "ABizarreDayBanknoteTP.lua",
   ["3224790922"] = "AOTInfBladeAndGas.lua",
@@ -43,15 +41,17 @@ function load(name)
     end
 end
 
-if not checkGame then return end
-if scripts[tostring(game.PlaceId)] ~= nil then
+if scripts[tostring(game.PlaceId)] ~= nil and checkGame then
     load(tostring(game.PlaceId))
 else
-    setclipboard(tostring(game.PlaceId))
-    local mes = Instance.new("Message")
-    mes.Parent = workspace
-    mes.Text = "Game is not detected; its ID is copied automatically.  Make a new ticket and please paste the ID that has been copied."
-    setclipboard(tostring(game.PlaceId))
-    wait(10)
-    mes:Destroy()
+    if checkGame then
+        setclipboard(tostring(game.PlaceId))
+        local mes = Instance.new("Message")
+        mes.Parent = workspace
+        mes.Text = "Game is not detected; its ID is copied automatically.  Make a new ticket and please paste the ID that has been copied."
+        setclipboard(tostring(game.PlaceId))
+        wait(10)
+        mes:Destroy()
+    end
 end
+
