@@ -1,4 +1,4 @@
-local checkGame = true
+-- Made by TrashScripterF
 
 local scripts = {
   ["2686500207"] = "ABizarreDayBanknoteTP.lua",
