@@ -34,7 +34,7 @@ while wait() do
         pcall(function()
             if UIS:IsKeyDown(Enum.KeyCode.W) then
                 game.Players.LocalPlayer.PlayerGui.Throttle.Value = _G.speed
-            elseif UIS.IsKeyDown(Enum.KeyCode.S) then
+            elseif UIS:IsKeyDown(Enum.KeyCode.S) then
                 game.Players.LocalPlayer.PlayerGui.Throttle.Value = -_G.speed
             end
         end)
