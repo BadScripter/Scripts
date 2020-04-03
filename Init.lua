@@ -1,3 +1,5 @@
+-- Made by TrashScripterF
+
 local scripts = {
   ["2686500207"] = "ABizarreDayBanknoteTP.lua",
   ["3224790922"] = "AOTInfBladeAndGas.lua",
@@ -24,7 +26,8 @@ local scripts = {
   ["2622527242"] = "rBreachSCPGUI.lua",
   ["4340636621"] = "MilitaryMadnessGUI.lua",
   ["3340155139"] = "MilitaryMadnessGUI.lua",
-  ["3144140570"] = "HoopVerseAimbot.lua"
+  ["3144140570"] = "HoopVerseAimbot.lua",
+  ["3073974886"] = "HoopVerseAimbot.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
