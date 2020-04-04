@@ -39,6 +39,7 @@ local scripts = {
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
+  ["AntiAFK"] = "AntiAFK.lua",
 }
 
 function load(name)
