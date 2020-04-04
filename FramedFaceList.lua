@@ -5,14 +5,26 @@ local ScrollingFrame = Instance.new("ScrollingFrame")
 local Face = Instance.new("ImageLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local UIListLayout = Instance.new("UIListLayout")
+local CreditLabel = Instance.new("TextLabel")
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+CreditLabel.Parent = ScreenGui
+CreditLabel.AnchorPoint = Vector2.new(0, 0.5)
+CreditLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+CreditLabel.BackgroundTransparency = 0.7
+CreditLabel.Position = UDim2.new(0, 0, 0.5, -160)
+CreditLabel.Size = UDim2.new(0, 200, 0, 20)
+CreditLabel.Font = Enum.Font.SourceSans
+CreditLabel.TextColor3 = Color3.new(0, 0, 0)
+CreditLabel.TextSize = 13
+CreditLabel.Text = "Made by Sky. https://discord.gg/czXkbCS"
+
 ScrollingFrame.Parent = ScreenGui
 ScrollingFrame.AnchorPoint = Vector2.new(0, 0.5)
 ScrollingFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-ScrollingFrame.BackgroundTransparency = 0.69999998807907
+ScrollingFrame.BackgroundTransparency = 0.7
 ScrollingFrame.Position = UDim2.new(0, 0, 0.5, 0)
 ScrollingFrame.Size = UDim2.new(0, 200, 0, 300)
 
