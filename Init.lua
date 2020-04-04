@@ -36,6 +36,7 @@ local scripts = {
   ["4488998649"] = "TankerySpeed.lua",
   ["3025990139"] = "UnboxingSimAutofarm.lua",
   ["29812337"] = "FramedFaceList.lua",
+  ["445265003"] = "SCPNineTailedFoxESP.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
