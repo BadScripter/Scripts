@@ -31,6 +31,7 @@ local scripts = {
   ["3073974886"] = "HoopVerseAimbot.lua",
   ["797772998"] = "LundenwicInfMoney.lua",
   ["287999508"] = "TankerySpeed.lua",
+  ["3025990139"] = "UnboxingSimAutofarm.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
