@@ -3,6 +3,7 @@
 local scripts = {
   ["2686500207"] = "ABizarreDayBanknoteTP.lua",
   ["3224790922"] = "AOTInfBladeAndGas.lua",
+  ["3582153031"] = "AOTInfBladeAndGas.lua",
   ["2394658527"] = "BloxnoHero2AutoFarm.lua",
   ["536102540"] = "DBZFinalStandAutoFarm",
   ["3221241066"] = "DeadzoneESP.lua",
