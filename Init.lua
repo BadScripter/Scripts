@@ -33,6 +33,7 @@ local scripts = {
   ["797772998"] = "LundenwicInfMoney.lua",
   ["287999508"] = "TankerySpeed.lua",
   ["3025990139"] = "UnboxingSimAutofarm.lua",
+  ["29812337"] = "FramedFaceList.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
