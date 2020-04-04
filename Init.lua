@@ -8,6 +8,7 @@ local scripts = {
   ["3221241066"] = "DeadzoneESP.lua",
   ["4477226641"] = "DemonJourneyAutofarm.lua",
   ["566399244"] = "ElementalBattlegroundsInfStam.lua",
+  ["2569625809"] = "ElementalBattlegroundsInfStam.lua",
   ["3095204897"] = {"IsleESP.lua","IsleHunterHitbox.lua"},
   ["745844303"] = "JojoBizarreWorldPunchSpam.lua",
   ["4760622859"] = "KurokoBasukeHitboxExpander.lua",
