@@ -4,14 +4,14 @@ for i, v in pairs(getgc()) do
 		local ups = debug.getupvalues(v)
 		for c, d in pairs(ups) do 
 			if typeof(d) == "table" then 
-				if d["FireRate"] ~= nil then 
-					d["FireRate"] = 20
+				if rawget(d,"FireRate") then 
+					rawset(d,"FireRate",20)
 				end
-				if d["Recoil"] ~= nil then 
-					d["Recoil"] = 0
+				if rawget(d,"Recoil") then 
+					rawset(d,"Recoil",0)
 				end
-				if d["Spread"] ~= nil then 
-					d["Spread"] = 0
+				if rawget(d,"Spread") then 
+					rawset(d,"Spread",0)
 				end
 			end
 		end
