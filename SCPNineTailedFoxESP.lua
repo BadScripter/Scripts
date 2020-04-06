@@ -1,5 +1,3 @@
--- Made by TrashScripterF and StayBlue, GUI Lib by Wally
-
 game.StarterGui:SetCore("SendNotification", {
 	Title = "ESP Loaded!",
 	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
@@ -42,11 +40,21 @@ ESPSet:Section("Settings")
 ESPSet:Toggle("Names", {location = Settings["Titles"], flag = "Name"})
 ESPSet:Toggle("Distances", {location = Settings["Titles"], flag = "Distance"})
 ESPSet:Toggle("Head Dot", {location = Settings["HeadDot"], flag = "Enabled"})
+local GunMods = library:CreateWindow("Gun Mods")
+GunMods:Toggle("Rapid Fire", {flag="Rapid"}, function(state)
+	while GunMods.flags.Rapid do
+		wait(3)
+		if Character:FindFirstChildOfClass("Tool") then
+    		local senv = getsenv(Character:FindFirstChildOfClass("Tool").Server.ClientTrigger)
+    		senv.Automatic = true
+    		senv.FireRate = 0
+	    end
+	end
+end)
 local Credits = library:CreateWindow("Credits")
 Credits:Section("Scripter: TrashScripterF")
 Credits:Section("Scripter: StayBlue")
 Credits:Section("GUI Lib: Wally")
-
 
 RunService.RenderStepped:Connect(function()
     
