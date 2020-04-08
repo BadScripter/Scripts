@@ -40,6 +40,7 @@ local scripts = {
   ["445265003"] = "SCPNineTailedFoxESP.lua",
   ["3722931411"] = "SouthLondonAutograb.lua",
   ["301549746"] = "CBROTriggerBot.lua",
+  ["510411669"] = "FantasticFrontierFogBypass.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
