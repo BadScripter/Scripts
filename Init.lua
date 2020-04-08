@@ -26,6 +26,7 @@ local scripts = {
   ["198817751"] = "VampireHunters2ESP.lua",
   ["2809202155"] = "YourBizzareAdventureItemESP.lua",
   ["3759927663"] = "ZombieStrikeGunMods.lua",
+  ["3803533582"] = "ZombieStrikeGunMods.lua",
   ["2622527242"] = "rBreachSCPGUI.lua",
   ["4340636621"] = "MilitaryMadnessGUI.lua",
   ["3340155139"] = "MilitaryMadnessGUI.lua",
