@@ -43,6 +43,7 @@ local scripts = {
   ["301549746"] = "CBROTriggerBot.lua",
   ["510411669"] = "FantasticFrontierFogBypass.lua",
   ["142823291"] = "MM2Coins.lua",
+  ["1345139196"] = "TreasureHuntSimAutofarm.lua"
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
