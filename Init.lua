@@ -1,4 +1,5 @@
 -- Made by TrashScripterF
+-- Other Scripters: mrnickson, Sky, and StayBlue
 
 local scripts = {
   ["2686500207"] = "ABizarreDayBanknoteTP.lua",
