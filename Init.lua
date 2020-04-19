@@ -46,6 +46,7 @@ local scripts = {
   ["142823291"] = "MM2Coins.lua",
   ["1345139196"] = "TreasureHuntSimAutofarm.lua",
   ["2821311961"] = "LandOfKings2AFKBypass.lua",
+  ["3734765037"] = "SchoolSimulatorFarm.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
