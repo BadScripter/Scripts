@@ -1,4 +1,4 @@
-
+-- Made by TrashScripterF
 
 assert(getrawmetatable, "NO")
 local mt = getrawmetatable(game)
