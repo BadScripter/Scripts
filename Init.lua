@@ -47,6 +47,7 @@ local scripts = {
   ["1345139196"] = "TreasureHuntSimAutofarm.lua",
   ["2821311961"] = "LandOfKings2AFKBypass.lua",
   ["3734765037"] = "SchoolSimulatorFarm.lua",
+  ["1284995092"] = "HxHWorldsInfStam.lua", ["1271540988"] = "HxHWorldsInfStam.lua", ["2985324747"] = "HxHWorldsInfStam.lua", ["1377051471"] = "HxHWorldsInfStam.lua", ["1267706319"] = "HxHWorldsInfStam.lua", ["2666628845"] = "HxHWorldsInfStam.lua", ["1659370517"] = "HxHWorldsInfStam.lua", ["1658595723"] = "HxHWorldsInfStam.lua", ["1284995092"] = "HxHWorldsInfStam.lua", ["2822139147"] = "HxHWorldsInfStam.lua", ["2914207477"] = "HxHWorldsInfStam.lua", ["4683548487"] = "HxHWorldsInfStam.lua", ["1331553051"] = "HxHWorldsInfStam.lua", ["2723224683"] = "HxHWorldsInfStam.lua", ["3017625278"] = "HxHWorldsInfStam.lua", ["1663316935"] = "HxHWorldsInfStam.lua", ["2690587765"] = "HxHWorldsInfStam.lua", ["1759719157"] = "HxHWorldsInfStam.lua", ["1754083847"] = "HxHWorldsInfStam.lua", 
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
