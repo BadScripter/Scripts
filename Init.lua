@@ -23,6 +23,7 @@ local scripts = {
   ["261290060"] = "TerminalRailwaysTeles.lua",
   ["133815151"] = "TheFinalStandAutofarm.lua",
   ["1103751037"] = "TheFinalStandAutofarm.lua",
+  ["2899434514"] = "TheFinalStandAutofarm.lua",
   ["328028363"] = "TypicalColors2Backstab.lua",
   ["198817751"] = "VampireHunters2ESP.lua",
   ["2809202155"] = "YourBizzareAdventureItemESP.lua",
