@@ -33,7 +33,7 @@ function callBack(but)
             return old(t,k)
         end)
         game.StarterGui:SetCore("SendNotification", {
-        	Title = "Silent Aim",
+        	Title = "Silent Aim Loaded!",
         	Text = "Join my discord for more scripts: https://discord.gg/czXkbCS",
         	Duration = 5,
         })
