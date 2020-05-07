@@ -16,13 +16,12 @@ end)
 wordGui:Button("Get Words", function()
     local letters = ""
     for i, v in pairs(game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
-        if v:IsA("TextLabel") then
+        if v:IsA("TextLabel") and v.Parent.Name == "Letter" then
             if v.Text:len() == 1 then
                 letters = letters..v.Text
             end
         end
     end
-    letters = letters:sub(letters:len()-1,letters:len()):lower()
     local c=0
     print("--------------------------")
     for i, v in pairs(words) do
