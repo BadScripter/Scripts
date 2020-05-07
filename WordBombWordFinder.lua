@@ -6,7 +6,6 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/BadSc
 local wordGui = library:CreateWindow("Word Bomb GUI")
 local Credits = library:CreateWindow("Credits")
 Credits:Section("Scripter: TrashScripterF")
-Credits:Section("Scripter: StayBlue")
 Credits:Section("GUI Lib: Wally")
 Credits:Button("Copy Discord Link", function()
     if setclipboard then
