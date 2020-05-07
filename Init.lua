@@ -52,6 +52,7 @@ local scripts = {
   ["1284995092"] = "HxHWorldsInfStam.lua", ["1271540988"] = "HxHWorldsInfStam.lua", ["2985324747"] = "HxHWorldsInfStam.lua", ["1377051471"] = "HxHWorldsInfStam.lua", ["1267706319"] = "HxHWorldsInfStam.lua", ["2666628845"] = "HxHWorldsInfStam.lua", ["1659370517"] = "HxHWorldsInfStam.lua", ["1658595723"] = "HxHWorldsInfStam.lua", ["1284995092"] = "HxHWorldsInfStam.lua", ["2822139147"] = "HxHWorldsInfStam.lua", ["2914207477"] = "HxHWorldsInfStam.lua", ["4683548487"] = "HxHWorldsInfStam.lua", ["1331553051"] = "HxHWorldsInfStam.lua", ["2723224683"] = "HxHWorldsInfStam.lua", ["3017625278"] = "HxHWorldsInfStam.lua", ["1663316935"] = "HxHWorldsInfStam.lua", ["2690587765"] = "HxHWorldsInfStam.lua", ["1759719157"] = "HxHWorldsInfStam.lua", ["1754083847"] = "HxHWorldsInfStam.lua", 
   ["2685347741"] = "GhostSimulatorAutofarm.lua", ["4383090972"] = "GhostSimulatorAutofarm.lua", ["4383092793"] = "GhostSimulatorAutofarm.lua", ["3083470782"] = "GhostSimulatorAutofarm.lua", ["3113119566"] = "GhostSimulatorAutofarm.lua", ["3083470782"] = "GhostSimulatorAutofarm.lua", ["4078021957"] = "GhostSimulatorAutofarm.lua", ["4078003854"] = "GhostSimulatorAutofarm.lua", ["4507873123"] = "GhostSimulatorAutofarm.lua", ["4507873031"] = "GhostSimulatorAutofarm.lua", ["3307329238"] = "GhostSimulatorAutofarm.lua", 
   ["885450884"] = {"BorderRolePlayGunMods.lua","BorderRolePlaySilentAim.lua"},
+  ["3840352284"] = "VolleyballInfStam.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
