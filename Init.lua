@@ -53,6 +53,7 @@ local scripts = {
   ["2685347741"] = "GhostSimulatorAutofarm.lua", ["4383090972"] = "GhostSimulatorAutofarm.lua", ["4383092793"] = "GhostSimulatorAutofarm.lua", ["3083470782"] = "GhostSimulatorAutofarm.lua", ["3113119566"] = "GhostSimulatorAutofarm.lua", ["3083470782"] = "GhostSimulatorAutofarm.lua", ["4078021957"] = "GhostSimulatorAutofarm.lua", ["4078003854"] = "GhostSimulatorAutofarm.lua", ["4507873123"] = "GhostSimulatorAutofarm.lua", ["4507873031"] = "GhostSimulatorAutofarm.lua", ["3307329238"] = "GhostSimulatorAutofarm.lua", 
   ["885450884"] = {"BorderRolePlayGunMods.lua","BorderRolePlaySilentAim.lua"},
   ["3840352284"] = "VolleyballInfStam.lua",
+  ["2653064683"] = "WordBombWordFinder.lua",
   ["UniBypass"] = "BasicWSandJPBypass.lua",
   ["Hitbox"] = "HitboxExpander.lua",
   ["R2S"] = "R2S.lua",
