@@ -22,6 +22,7 @@ wordGui:Button("Get Words", function()
             end
         end
     end
+    letters = letters:lower()
     local c=0
     print("--------------------------")
     for i, v in pairs(words) do
