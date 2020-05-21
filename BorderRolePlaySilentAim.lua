@@ -3,7 +3,7 @@ function getNearest()
     local c;
     for i, v in pairs(game.Players:GetPlayers()) do
         if v.Character then
-            local mag = (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame).magnitude
+            local mag = (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude
             if mag < m then
                 m = mag
                 c = v.Character
