@@ -5,7 +5,7 @@ assert(debug.setupvalue,"exploit not supported!")
 
 for i, v in pairs(getsenv(game.Players.LocalPlayer.Character.CharacterScript)) do
     if i == "handleAction" then
-        debug.setupvalue(v,18,math.huge)
+        debug.setupvalue(v,19,math.huge)
     end
 end
 
